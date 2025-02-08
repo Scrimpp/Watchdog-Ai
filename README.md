@@ -31,29 +31,3 @@ npm install
 ## License
 MIT
 ```
-```bash
-watchdog-ai/
-├── src/
-│   ├── blockchain/      # Solana integration & monitoring
-│   ├── detection/       # Scam & manipulation detection logic
-│   ├── alerts/         # Alert system
-│   └── utils/          # Helper functions
-├── config/             # Configuration files
-├── tests/              # Test files
-├── .gitignore         # Git ignore file
-├── package.json       # Project dependencies
-└── README.md          # 'README.md'
-```
-```bash
-# Create folders
-mkdir -p src/{blockchain,detection,alerts,utils} config tests
-
-# Create .gitignore
-echo "node_modules/" > .gitignore
-echo ".env" >> .gitignore
-
-# Add everything and commit
-git add .
-git commit -m "Initial setup: Project structure and documentation"
-git push
-```
